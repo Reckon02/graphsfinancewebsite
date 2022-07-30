@@ -34,6 +34,14 @@
             backgroundColor: "rgb(255, 99, 132)",
             borderColor: "rgb(255, 99, 132)",
             data: [0, 10, 5, 2, 40, 30, 45, 20, 60],
+            tension: 0.2,
+          },
+          {
+            label: "Another Graphic",
+            backgroundColor: "rgb(19, 209, 235)",
+            borderColor: "rgb(19, 209, 235)",
+            data: [5, 46, 12, 7, 2, 9, 50, 12, 64],
+            tension: 0.2,
           },
         ],
       };
@@ -47,9 +55,14 @@
     <script>
       const myChart = new Chart(document.getElementById("myChart"), config);
     </script>
-    <p align="center">
-      <a href="./index.html">Return to main page</a><br />
-      <a href="./bar.html">Bar graph</a>
-    </p>
+    <br />
+    <div id="box1">
+      <p align="center">
+        <a style="text-decoration: none" href="./index.html"
+          >Return to main page</a
+        ><br />
+        <a style="text-decoration: none" href="./bar.html">Bar graph</a>
+      </p>
+    </div>
   </body>
 </html>
