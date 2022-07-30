@@ -1,5 +1,5 @@
     body {
-        background: linear-gradient(rgb(255, 255, 255), rgb(207, 207, 207));
+        background: linear-gradient(rgb(255, 255, 255), rgb(199, 199, 199));
         background-repeat: no-repeat;
         background-attachment: fixed;
         padding: 1cm;
@@ -10,4 +10,18 @@ a{
     font-weight: 500;
     color: black;
     
+}
+#box1 {
+    position: absolute;
+    text-align: center;
+    background-color: rgba(125, 201, 231, 0.274);
+    width: 200px;
+    height: 70px;
+    align-items: center;
+    border-radius: 5px;
+    border-color: black;
+    border-style: outset;
+    
+
+    left: 22cm;
 }
