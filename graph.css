@@ -1,0 +1,13 @@
+    body {
+        background: linear-gradient(rgb(255, 255, 255), rgb(207, 207, 207));
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        padding: 1cm;
+    
+}
+a{
+    font-family: 'Montserrat', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    color: black;
+    
+}
