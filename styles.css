@@ -1,3 +1,24 @@
+body {
+    background: linear-gradient(rgb(17, 211, 146), rgb(9, 204, 230));
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding: 1cm;
+    
+    
+    
+}
+
+
 h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-size: 50px;
+    
+}
+#placeholder{
+    font-family: 'Montserrat',  Tahoma, Geneva, Verdana, sans-serif; font-size: 20px;
     text-align: center;
+    
+}
+
+#lorem {
+    font-family: 'Montserrat',  Tahoma, Geneva, Verdana, sans-serif; font-size: 20px;
 }
