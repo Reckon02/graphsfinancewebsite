@@ -7,7 +7,6 @@
     <title>First Graphic</title>
     <link rel="icon" href="./frame.png" />
     <link rel="stylesheet" href="graph.css" />
-    <link rel="stylesheet" href="graph.css" />
   </head>
   <body>
     <div>
@@ -35,6 +34,7 @@
             backgroundColor: "rgb(255, 99, 132)",
             borderColor: "rgb(255, 99, 132)",
             data: [0, 10, 5, 2, 40, 30, 45, 20, 60],
+            tension: 0.2,
           },
           {
             label: "Another Graphic",
@@ -47,20 +47,19 @@
       };
 
       const config = {
-        type: "bar",
+        type: "line",
         data: data,
         options: {},
       };
     </script>
     <script>
-      const myChart = new Chart(document.getElementById("myChart"), config);
+      const myChart2 = new Chart(document.getElementById("myChart"), config);
     </script>
-    <div id="box1">
-      <p align="center">
-        <a style="text-decoration: none" href="./index.html"
-          >Return to main page</a
-        ><br />
-        <a style="text-decoration: none" href="./line.html">Line graph</a>
-      </p>
+    <br />
+    <p align="center">
+      <a style="text-decoration: none" href=".././index.html"
+        >Return to main page</a
+      >
+    </p>
   </body>
 </html>

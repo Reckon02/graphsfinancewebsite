@@ -1,5 +1,5 @@
 body {
-    background: linear-gradient(rgb(17, 211, 146), rgb(9, 204, 230));
+    background: linear-gradient(rgb(54, 173, 133), rgb(12, 144, 161));
     background-repeat: no-repeat;
     background-attachment: fixed;
     padding: 1cm;
@@ -29,5 +29,13 @@ a{
     font-weight: 500;
     color: black;
     font-size: 25px;
+}
+    
+#myChart {
+    background-color: rgba(255, 255, 255, 0.534);
+    border-radius: 20px;
+    border-color: rgba(0, 0, 0, 0.089);
+    border-width: 5px;
+    border-style: solid;
     
 }
