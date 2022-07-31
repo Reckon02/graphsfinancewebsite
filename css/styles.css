@@ -44,15 +44,15 @@ a{
     border-radius: 12px;
     text-decoration: none;
     box-shadow: 0 5px 10px rgba(2, 30, 34, 0.062);
-    max-width: fit-content;
+    max-width: fit-content; 
 
 }
 a:hover {
-    color: deepskyblue;
+    color: rgb(175, 175, 175);
 }
 a:active {
     box-shadow: none;
-    transform: translateY(5px);
+    transform: translateY(2px);
 }
 .btns {
     background-color: rgba(255, 255, 255, 0.151);
@@ -86,4 +86,23 @@ a:active {
     margin:auto;
     margin-top: 15px;
     
+}
+#changeType {
+    font-family: "Sen", Tahoma Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+
+    display: inline-block;
+    background-color: rgb(3, 45, 51);
+    padding: 0.5em;
+    margin: 0.2em;
+    border-radius: 12px;
+    text-decoration: none;
+    box-shadow: 0 5px 10px rgba(2, 30, 34, 0.062);
+    max-width: fit-content; 
+}
+#changeType:active {
+    box-shadow: none;
+    transform: translateY(2px);
 }

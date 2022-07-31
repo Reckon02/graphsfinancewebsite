@@ -35,3 +35,8 @@ const config = {
   options: {},
 };
 const myChart = new Chart(document.getElementById("myChart"), config);
+
+function chartType(type) {
+  myChart.config.type = type;
+  myChart.update();
+}

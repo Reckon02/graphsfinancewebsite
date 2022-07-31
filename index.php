@@ -20,13 +20,13 @@
       <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 
       <script src="./js/myChart.js"></script>
+      <button id="changeType" onclick="chartType('bar')">Bar chart</button>
+      <button id="changeType" onclick="chartType('line')">Line chart</button>
     </div>
     <div class="btns">
-      <a style="text-decoration: none" target="_blank" href="./line.html"
-        >Go to Line graph</a
-      >
-      <a style="text-decoration: none" href="./line.html">Another option!</a>
-      <a style="text-decoration: none" href="./line.html"
+      <a style="text-decoration: none" href="./line.php">APPL Stock</a>
+      <a style="text-decoration: none" href="./line.php">Another option!</a>
+      <a style="text-decoration: none" href="./line.php"
         >And maybe another option</a
       >
     </div>
