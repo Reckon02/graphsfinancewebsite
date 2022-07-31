@@ -17,15 +17,17 @@ h1 {
 }
 
 .title {
+    margin-top: 5px;
     display: block;
     background-color: rgb(43, 129, 101);
     padding: 0.2em;
-    margin: 0.2em;
     border-radius: 12px;
     text-decoration: none;
     box-shadow: 0 5px 10px rgba(2, 30, 34, 0.062);
     max-width: none;
     color: #e6e6e6;
+    max-width: 600px;
+    margin: auto;
 }
 
 
@@ -51,7 +53,20 @@ a:hover {
 a:active {
     box-shadow: none;
     transform: translateY(5px);
-  }
+}
+.btns {
+    background-color: rgba(255, 255, 255, 0.151);
+    padding: 0.2em;
+    margin: auto;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    border-radius: 15px;
+    max-width: 890px;
+    max-height: max-content;
+    color: #e6e6e6;
+}
+
+    
     
 .chart {
     
@@ -65,5 +80,10 @@ a:active {
     background-repeat: no-repeat;
     background-attachment: fixed;
 
+    height: max-content;
+    width: 60%;
+
+    margin:auto;
+    margin-top: 15px;
     
 }
