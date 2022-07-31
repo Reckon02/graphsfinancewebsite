@@ -2,33 +2,68 @@ body {
     background: linear-gradient(rgb(54, 173, 133), rgb(12, 144, 161));
     background-repeat: no-repeat;
     background-attachment: fixed;
-    padding: 1cm;
-    
+    padding: cm;
+    text-align: center;
+    color: rgb(0, 0, 0);
     
     
     
 }
 h1 {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-size: 50px;
-    
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-size: 50px;   
 }
 #placeholder{
     font-family: 'Montserrat',  Tahoma, Geneva, Verdana, sans-serif; font-size: 20px;
-    text-align: center;
-    
 }
+
+.title {
+    display: block;
+    background-color: rgb(43, 129, 101);
+    padding: 0.7em;
+    margin: 0.2em;
+    border-radius: 12px;
+    text-decoration: none;
+    box-shadow: 0 5px 10px rgba(2, 30, 34, 0.062);
+    max-width: none;
+    color: #e6e6e6;
+}
+
+
 a{
-    font-family: 'Montserrat', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: "Sen", Tahoma Geneva, Verdana, sans-serif;
     font-weight: 500;
-    color: black;
+    color: rgb(255, 255, 255);
     font-size: 25px;
+
+    display: inline-block;
+    background-color: rgb(7, 77, 87);
+    padding: 0.7em;
+    margin: 0.2em;
+    border-radius: 12px;
+    text-decoration: none;
+    box-shadow: 0 5px 10px rgba(2, 30, 34, 0.062);
+    max-width: fit-content;
+
 }
+a:hover {
+    color: deepskyblue;
+}
+a:active {
+    box-shadow: none;
+    transform: translateY(5px);
+  }
     
-#myChart {
-    background-color: rgba(255, 255, 255, 0.534);
+.chart {
+    
+    padding: 1cm;
+    background-color: rgba(255, 255, 255, 0.521);
     border-radius: 20px;
-    border-color: rgba(0, 0, 0, 0.089);
+    border-color: rgba(0, 0, 0, 0.048);
     border-width: 10px;
     border-style: solid;
+
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
     
 }

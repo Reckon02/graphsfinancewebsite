@@ -10,58 +10,20 @@
   </head>
 
   <body>
-    <center>
+    <div class="title">
       <h1>Finance Graphics</h1>
-    </center>
-
-    <p id="placeholder">This is still in testing!</p>
-    <div>
-      <canvas id="myChart"></canvas>
+      <p id="placeholder">This is still in testing!</p>
     </div>
-    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-    <script>
-      const labels = [
-        "January",
-        "February",
-        "March",
-        "April",
-        "May",
-        "June",
-        "jajj",
-        "test",
-        "test",
-      ];
 
-      const data = {
-        labels: labels,
-        datasets: [
-          {
-            label: "My First graphic",
-            backgroundColor: "rgb(255, 99, 132)",
-            borderColor: "rgb(255, 99, 132)",
-            data: [0, 10, 5, 2, 40, 30, 45, 20, 60],
-          },
-          {
-            label: "Another Graphic",
-            backgroundColor: "rgb(19, 209, 235)",
-            borderColor: "rgb(19, 209, 235)",
-            data: [5, 46, 12, 7, 2, 9, 50, 12, 64],
-            tension: 0.2,
-          },
-        ],
-      };
+    <div class="chart">
+      <canvas id="myChart"></canvas>
+      <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 
-      const config = {
-        type: "bar",
-        data: data,
-        options: {},
-      };
-    </script>
-    <script>
-      const myChart = new Chart(document.getElementById("myChart"), config);
-    </script>
+      <script src="./js/myChart.js"></script>
+    </div>
+
     <p align="center">
-      <a id="linelink" href="./line.html">Line graph</a>
+      <a style="text-decoration: none" href="./line.html">Go to Line graph</a>
     </p>
   </body>
 </html>

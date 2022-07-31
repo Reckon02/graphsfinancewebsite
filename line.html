@@ -4,57 +4,20 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>First Graphic</title>
+    <title>Line Graphic</title>
     <link rel="icon" href="./frame.png" />
-    <link rel="stylesheet" href="../css/graph.css" />
+    <link rel="stylesheet" href="../css/styles.css" />
   </head>
   <body>
-    <div>
-      <canvas id="myChart"></canvas>
+    <div class="title">
+      <h1>Line Chart</h1>
     </div>
-    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-    <script>
-      const labels = [
-        "January",
-        "February",
-        "March",
-        "April",
-        "May",
-        "June",
-        "jajj",
-        "test",
-        "test",
-      ];
+    <div class="chart">
+      <canvas id="myChart"></canvas>
 
-      const data = {
-        labels: labels,
-        datasets: [
-          {
-            label: "My First graphic",
-            backgroundColor: "rgb(255, 99, 132)",
-            borderColor: "rgb(255, 99, 132)",
-            data: [0, 10, 5, 2, 40, 30, 45, 20, 60],
-            tension: 0.2,
-          },
-          {
-            label: "Another Graphic",
-            backgroundColor: "rgb(19, 209, 235)",
-            borderColor: "rgb(19, 209, 235)",
-            data: [5, 46, 12, 7, 2, 9, 50, 12, 64],
-            tension: 0.2,
-          },
-        ],
-      };
-
-      const config = {
-        type: "line",
-        data: data,
-        options: {},
-      };
-    </script>
-    <script>
-      const myChart2 = new Chart(document.getElementById("myChart"), config);
-    </script>
+      <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+      <script src="./js/lineChart.js"></script>
+    </div>
     <br />
     <p align="center">
       <a style="text-decoration: none" href="./index.html"
