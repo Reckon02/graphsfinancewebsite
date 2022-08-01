@@ -31,40 +31,6 @@ h1 {
 }
 
 
-a{
-    font-family: "Sen", Tahoma Geneva, Verdana, sans-serif;
-    font-weight: 500;
-    color: rgb(255, 255, 255);
-    font-size: 25px;
-
-    display: inline-block;
-    background-color: rgb(7, 77, 87);
-    padding: 0.7em;
-    margin: 0.2em;
-    border-radius: 12px;
-    text-decoration: none;
-    box-shadow: 0 5px 10px rgba(2, 30, 34, 0.062);
-    max-width: fit-content; 
-
-}
-a:hover {
-    color: rgb(175, 175, 175);
-}
-a:active {
-    box-shadow: none;
-    transform: translateY(2px);
-}
-.btns {
-    background-color: rgba(255, 255, 255, 0.151);
-    padding: 0.2em;
-    margin: auto;
-    margin-top: 15px;
-    margin-bottom: 20px;
-    border-radius: 15px;
-    max-width: 890px;
-    max-height: max-content;
-    color: #e6e6e6;
-}
 
     
     
@@ -106,3 +72,51 @@ a:active {
     box-shadow: none;
     transform: translateY(2px);
 }
+
+
+a{ 
+    font-family: "Sen", Tahoma Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+
+    display: inline-block;
+    background-color: rgb(7, 77, 87);
+    padding: 0.7em;
+    margin: 0.2em;
+    border-radius: 12px;
+    text-decoration: none;
+    box-shadow: 0 5px 10px rgba(2, 30, 34, 0.062);
+    max-width: fit-content; 
+
+}
+#changeType:hover {
+    color: rgb(175, 175, 175);
+}
+.changegraph {
+    background-color: rgba(255, 255, 255, 0.342);
+    border-radius: 9px;
+    max-width: 5cm;
+    padding: 0.4em;
+    margin:auto;
+    margin-top: 10px;
+
+    font-family: "Segoe UI", Tahoma Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    font-size: 1.5rem;
+
+}
+select {
+    min-width: 15ch;
+    max-width: 30ch;
+    border: 1px solid var(--select-border);
+    border-radius: 0.25em;
+    padding: 0.25em 0.5em;
+    font-size: 1.3rem;
+    cursor: pointer;
+    line-height: 1.1;
+    background-color: #fff;
+    background-image: linear-gradient(to top, #f9f9f9, #fff 33%);
+}
+
+    
