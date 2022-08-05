@@ -1,13 +1,14 @@
 const labels = [
-  "January",
-  "February",
-  "March",
-  "April",
-  "May",
-  "June",
-  "jajj",
-  "test",
-  "test",
+  "day 1",
+  "day 2",
+  "day 3",
+  "day 4",
+  "day 5",
+  "day 6",
+  "day 7",
+  "day 8",
+  "day 9",
+  "day 10"
 ];
 
 const data = {
@@ -17,7 +18,7 @@ const data = {
       label: "TSLA",
       backgroundColor: "rgb(255, 99, 132)",
       borderColor: "rgb(255, 99, 132)",
-      data: [0, 10, 5, 2, 40, 30, 45, 20, 60],
+      data: [10, 12, 5, 2, 40, 30, 46, 20, 39],
     },
   ],
 };
@@ -36,13 +37,13 @@ const data2 = {
 };
 
 const config = {
-  type: "bar",
+  type: "line",
   data: data,
   options: {},
 };
 
 const config2 = {
-  type: "bar",
+  type: "line",
   data: data2,
   options: {},
 };
